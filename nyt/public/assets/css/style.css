@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600');
+
+html{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+}
+strong{
+	font-weight: 600;
+}
+
+
+/*top header bar*/
+header{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #f2f2f2;
+	border-bottom: 2px solid #ff5050;
+	margin-bottom: 50px;
+}
+header h1{
+	font-size: 2em;
+}
+header h1 img{
+	position: relative;
+	top: 8px;
+}
+header h2{
+	font-size: 1.1em;
+	margin-bottom: 5px;
+}
+header a{
+	padding-top: 5px;
+	text-decoration: none;
+	color: #000;
+	font-size: .8em;
+}
+
+section{
+	width: 93%;
+	margin: auto;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
+}
+section h3{
+	text-align: center;
+	font-size: 1.3em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #f2f2f2;
+	margin-bottom: 25px;
+	border-bottom: 2px solid #99ddff;
+}
+
+form{
+	padding-left: 10px;
+	padding-right: 15px;
+	margin-bottom: 20px;
+}
+label{
+	text-align: left;
+}
+label p{
+	margin-bottom: -10px;
+	padding-left: 15px;
+}
+input{
+	position: relative;
+	outline: none;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 20px;
+	font-size: .9em;
+	text-align: center;
+	border:	1px solid #bfbfbf;
+	transition: all .7s; 
+}
+input:hover{
+	border-color: #99ddff;
+}
+input:focus{
+	border-color: #ff5050;
+}
+
+.submit{
+	margin-bottom: 0px;
+}
+
+.btn{
+	outline: none;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.05em;
+	color: #fff;
+	background: linear-gradient(to bottom, #ff5050 0%, #d44646 100%);
+	border: none;
+	border-radius: 5px;
+}
+.btn:hover{
+	background: linear-gradient(to bottom, #ff6161 0%, #d65151 100%);
+}
+.btn:active{
+	background: linear-gradient(to bottom, #e63333 0%, #ae3d3d 100%);
+}
+.addComment{
+
+}
+
+#result p, #saved p, .resultSection{
+	background-color: #f2f2f2;
+	padding: 5px;
+	margin: 5px;	
+}
+.resultSection{
+	margin-top: 15px;
+}
+#saved p{
+	background-color: #dfdfdf;
+}
+.commentsSection{
+	margin-top: 10px;
+}
+
+#result .btn, #saved .btn{
+	font-size: .8em;
+	float: right;
+}
+
+.commentForm{
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.addComment{
+	outline: none;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: .9em;
+	border-radius: 5px;
+	border: none;
+	color: #000;
+	width: 120px;
+	height: 25px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	background: linear-gradient(to bottom, #e6e6e6 0%, #dbdbdb 47%, #d6d6d6 100%);
+}
+.addComment:hover{
+	background: linear-gradient(to bottom, #f5f5f5 0%, #ebebeb 47%, #e3e3e3 100%);
+}
+.addComment:active{
+	background: linear-gradient(to bottom, #cccccc 0%, #c4c4c4 47%, #bdbdbd 100%);
+}
